@@ -1,6 +1,6 @@
 class DataBaseController {
     getItems() {
-        return [{id: '1', name: 'foo', count: '10'}];
+        return [{id: 1, name: 'foo', count: 10, price: 10}];
     }
 
     getItem(id) {
